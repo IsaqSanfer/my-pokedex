@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="CSS Exercises, disponível em: https://ifpb.github.io/css-exercises/challenges/css/pokedex/">
+    <meta name="keywords" content="html, css, pokemon, pokedex">
+    <meta name="author" content="IsaqSanfer">
+
+    <link rel="shortcut icon" href="icons/pokeball-symbol.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>My Pokédex!</title>
+</head>
+<body>
+    <header>
+        <div style="float: left"><img src="icons/pokeball-circle.png" alt="Pokédex" height="50px"></div>
+        <div><h1>Pokédex</h1></div>
+    </header>
+ <main>
+    <form class="pokedex-form"></form>
+
+    <section class="pokedex">
+
+        <div class="pokemon" data-name="Bulbasaur" data-type="grass,poison" tabindex="1">
+            <figure class="poke-figure">
+                <img src="img/bulbasaur.png" alt="Bulbasaur">
+            </figure>
+            <section class="poke-description">
+                <span class="poke-id">#001</span>
+                <h1 class="poke-name">Bulbasaur</h1>
+                <div class="poke-types">
+                    <span class="poke-type background-grass">grass</span>
+                    <span class="poke-type background-poison">poison</span>
+                </div>
+            </section>
+            <section class="poke-stats"></section>
+        </div>
+        <div class="pokemon" data-name="Ivysaur" data-type="grass,poison" tabindex="2">
+            <figure class="poke-figure">
+                <img src="img/ivysaur.png" alt="Ivysaur">
+            </figure>
+            <section class="poke-description">
+                <span class="poke-id">#002</span>
+                <h1 class="poke-name">Ivysaur</h1>
+                <div class="poke-types">
+                    <span class="poke-type background-grass">grass</span>
+                    <span class="poke-type background-poison">poison</span>
+                </div>
+            </section>
+            <section class="poke-stats"></section>
+        </div>
+        <div class="pokemon" data-name="Venusaur" data-type="grass,poison" tabindex="3">
+            <figure class="poke-figure">
+                <img src="img/venusaur.png" alt="Venusaur">
+            </figure>
+            <section class="poke-description">
+                <span class="poke-id">#003</span>
+                <h1 class="poke-name">Venusaur</h1>
+                <div class="poke-types">
+                    <span class="poke-type background-grass">grass</span>
+                    <span class="poke-type background-poison">poison</span>
+                </div>
+            </section>
+            <section class="poke-stats"></section>
+        </div>
+        <div class="pokemon" data-name="Charmander" data-type="fire" tabindex="4">
+            <figure class="poke-figure">
+                <img src="img/charmander.png" alt="Charmander">
+            </figure>
+            <section class="poke-description">
+                <span class="poke-id">#004</span>
+                <h1 class="poke-name">Charmander</h1>
+                <div class="poke-types">
+                    <span class="poke-type background-fire">fire</span>
+                </div>
+            </section>
+            <section class="poke-stats"></section>
+        </div>
+        <div class="pokemon" data-name="Charmeleon" data-type="fire" tabindex="5">
+            <figure class="poke-figure">
+                <img src="img/charmeleon.png" alt="Charmeleon">
+            </figure>
+            <section class="poke-description">
+                <span class="poke-id">#005</span>
+                <h1 class="poke-name">Charmeleon</h1>
+                <div class="poke-types">
+                    <span class="poke-type background-fire">fire</span>
+                </div>
+            </section>
+            <section class="poke-stats"></section>
+        </div>
+        <div class="pokemon" data-name="Charizard" data-type="fire" tabindex="6">
+            <figure class="poke-figure">
+                <img src="img/charizard.png" alt="Charizard">
+            </figure>
+            <section class="poke-description">
+                <span class="poke-id">#006</span>
+                <h1 class="poke-name">Charizard</h1>
+                <div class="poke-types">
+                    <span class="poke-type background-fire">fire</span>
+                </div>
+            </section>
+            <section class="poke-stats"></section>
+        </div>
+        <div class="pokemon" data-name="Squirtle" data-type="water" tabindex="7">
+            <figure class="poke-figure">
+                <img src="img/squirtle.png" alt="Squirtle">
+            </figure>
+            <section class="poke-description">
+                <span class="poke-id">#007</span>
+                <h1 class="poke-name">Squirtle</h1>
+                <div class="poke-types">
+                    <span class="poke-type background-water">water</span>
+                </div>
+            </section>
+            <section class="poke-stats"></section>
+        </div>
+        <div class="pokemon" data-name="Wartortle" data-type="water" tabindex="8">
+            <figure class="poke-figure">
+                <img src="img/wartortle.png" alt="Wartortle">
+            </figure>
+            <section class="poke-description">
+                <span class="poke-id">#008</span>
+                <h1 class="poke-name">Wartortle</h1>
+                <div class="poke-types">
+                    <span class="poke-type background-water">water</span>
+                </div>
+            </section>
+            <section class="poke-stats"></section>
+        </div>
+        <div class="pokemon" data-name="Blastoise" data-type="water" tabindex="9">
+            <figure class="poke-figure">
+                <img src="img/blastoise.png" alt="Blastoise">
+            </figure>
+            <section class="poke-description">
+                <span class="poke-id">#009</span>
+                <h1 class="poke-name">Blastoise</h1>
+                <div class="poke-types">
+                    <span class="poke-type background-water">water</span>
+                </div>
+            </section>
+            <section class="poke-stats"></section>
+        </div>
+        <div class="pokemon" data-name="Caterpie" data-type="bug" tabindex="10">
+            <figure class="poke-figure">
+                <img src="img/caterpie.png" alt="Caterpie">
+            </figure>
+            <section class="poke-description">
+                <span class="poke-id">#010</span>
+                <h1 class="poke-name">Caterpie</h1>
+                <div class="poke-types">
+                    <span class="poke-type background-bug">bug</span>
+                </div>
+            </section>
+            <section class="poke-stats"></section>
+        </div>
+        <div class="pokemon" data-name="Metapod" data-type="bug" tabindex="11">
+            <figure class="poke-figure">
+                <img src="img/metapod.png" alt="Metapod">
+            </figure>
+            <section class="poke-description">
+                <span class="poke-id">#011</span>
+                <h1 class="poke-name">Metapod</h1>
+                <div class="poke-types">
+                    <span class="poke-type background-bug">bug</span>
+                </div>
+            </section>
+            <section class="poke-stats"></section>
+        </div>
+
+    </section>
+
+ </main>
+
+    <footer>
+        <img style="float: left" src="icons/pokemon-company.png" alt="The Pokémon Company" height="30px">
+        <!-- <img class="bottom-gif" style="float: left" src="icons/cut-loop.gif" alt="Picachu logo" height="50px"> -->
+        <ul>     
+            <li>
+                <a href="" rel="" title="">Novidades</a>
+            </li>
+            <li>
+                <a href="" rel="" title="">Consumidor</a>
+            </li>
+            <li>
+                <a href="" rel="" title="">Institucional</a>
+            </li>
+            <li>
+                <a href="" rel="" title="">Imprensa</a>
+            </li>
+        </ul>
+        <ul>     
+            <li>
+                <a href="" rel="" title="">Facebook</a>
+            </li>
+            <li>
+                <a href="" rel="" title="">Youtube</a>
+            </li>
+            <li>
+                <a href="" rel="" title="">Twitter</a>
+            </li>
+            <li>
+                <a href="" rel="" title="">Instagram</a>
+            </li>
+        </ul>
+            
+
+    </footer>
+
+</body>
+</html>
